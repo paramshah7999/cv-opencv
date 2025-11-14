@@ -1,0 +1,43 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.egg
+*.log
+
+# ---- Virtual Environments ----
+.venv/
+venv/
+.env/
+.env.bak/
+
+# ---- Data, Outputs, and Checkpoints ----
+data/
+datasets/
+checkpoints/
+outputs/
+runs/
+logs/
+models/
+weights/
+results/
+
+# ---- Jupyter & Notebook ----
+.ipynb_checkpoints/
+
+# ---- VS Code ----
+.vscode/
+
+# ---- Mac & System ----
+.DS_Store
+Thumbs.db
+
+# ---- TensorBoard ----
+tensorboard/
+tb_logs/
+
+# ---- Misc ----
+*.tmp
+*.bak
